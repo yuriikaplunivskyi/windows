@@ -3,14 +3,14 @@ import modals from './modules/modals';
 import tabs from './modules/tabs';
 import forms from './modules/forms';
 import changeModalState from './modules/changeModalState';
-import timer from "./modules/timer";
-import images from "./modules/images";
+import timer from './modules/timer';
+import images from './modules/images';
 
 window.addEventListener('DOMContentLoaded', () => {
     "use strict";
 
     let modalState = {};
-    let deadline = '2023-08-31'
+    let deadline = '2020-02-01';
 
     changeModalState(modalState);
     modals();
